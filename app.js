@@ -50,9 +50,13 @@ function calculateCredits() {
     }
 console.log(someOfCredits);
     document.getElementById("sumOfCredits").innerHTML = someOfCredits
+    document.getElementById("averageCredits").innerHTML = returnAverage
 
 }
 
 
+function_returnAverage(){
+    return sumOfCredits / numberOfBoxes;
+}
 
 
