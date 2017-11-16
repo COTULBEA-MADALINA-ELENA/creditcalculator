@@ -49,7 +49,7 @@ function calculateCredits() {
         someOfCredits +=  parseInt(inputElemValue) ;
     }
 console.log(someOfCredits);
-    document.getElementById("someOfCredits").innerHTML = someOfCredits
+    document.getElementById("sumOfCredits").innerHTML = someOfCredits
 
 }
 
